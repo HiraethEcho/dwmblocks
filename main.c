@@ -21,13 +21,6 @@ typedef const struct {
 } Block;
 #include "config.h"
 
-#ifdef CLICKABLE_BLOCKS
-#undef CLICKABLE_BLOCKS
-#define CLICKABLE_BLOCKS 1
-#else
-#define CLICKABLE_BLOCKS 0
-#endif
-
 #ifdef LEADING_DELIMITER
 #undef LEADING_DELIMITER
 #define LEADING_DELIMITER 1
