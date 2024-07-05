@@ -9,7 +9,7 @@ const Block blocks[] = {
 	// BLOCK("block_light",	0, 3),
 	BLOCK("block_resources",	1, 5),
 	// BLOCK("block_pulse",	0, 4),
-	BLOCK("sb-vol",	1, 4),
+	BLOCK("sb-vol",	0, 4),
 	BLOCK("block_date", 1, 6),
 	BLOCK("sb-memory",	1, 7),
 };
